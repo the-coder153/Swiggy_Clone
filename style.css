@@ -1,0 +1,435 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home{
+    display: flex;
+}
+
+.img{
+    height: 540px;
+    width: 650px;
+   
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+    background-size: cover;
+}
+
+.main{
+   
+    height: 540px;
+    width: 850px;
+    
+    margin: 0px;
+}   
+
+.logo{
+    background-image: url(https://www.startuparticle.com/wp-content/uploads/2019/11/swiggy-2.jpg);
+    background-size: cover;
+    height: 120px;
+    width: 300px;
+    background-position: center;
+    margin: 75px 0px 0px;
+}
+
+.m1{
+    display: flex;
+}
+
+.login{
+    width: 96.2px;
+    height: 40px;
+    margin-top: 120px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+.login:hover{
+    color: #FC8019;
+    cursor: pointer;
+}
+
+.signup{
+    width: 111px;
+    height: 40px;
+    margin-top: 115px;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup:hover{
+    cursor: pointer;
+}
+
+.m2{
+    width: 620px;
+    height: 48px;
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #282c3f;
+}
+
+.m3{
+    width: 600px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: #687878;
+    font-size: 24px;
+}
+
+.inp{
+    display: flex;
+}
+
+.input{
+    width: 608.4px;
+    height: 58px;
+    border: 1px solid #687878;
+    margin-left: 35px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.input:hover{
+    border-color: #FC8019;
+}
+
+.email{
+    height: 35px;
+    width: 300px;
+    color: #687878;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+.loctxt{
+    width: 100px;
+    height: 16px;
+    font-size: 14px;
+    color: #535665;
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+    font-weight: 500;
+}
+
+.loctxt:hover{
+    background-color: rgb(179, 179, 179);
+    color: white;
+}
+
+.button{
+    width: 140px;
+    height: 60px;
+    background-color: #FC8019;
+    color: #FFFFFF;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+    font-weight: 700;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.m4{
+    margin-left: 35px;
+    width: 620px;
+    height: 18px;
+    font-size: 15px;
+    color: #A9ABB2;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.cities{
+    margin-top: 20px;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    margin-left: 35px;
+    
+}
+
+.cities-2{
+    margin-top: 8px;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    margin-left: 35px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.c1{
+    color: #687878;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.c2{
+    color: #93959F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.features{
+    width: 100%;
+    height: 350px;
+    padding: 0px 0px 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #282c3f;
+}
+
+.box{
+    height: 380px;
+    width: 250px;
+    background-color: #282c3f;
+}
+
+.img1{
+    width: 105px;
+    height: 199px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf);
+    background-size: cover;
+    margin-left: 70px;
+}
+
+.heading{
+    width: 260px;
+    height: 24px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.descrp{
+    width: 260px;
+    height: 39px;
+    color: #e0cbc1;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.img2{
+    width: 105px;
+    height: 199px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy);
+    background-size: cover;
+    margin-left: 70px;
+}
+
+.img3{
+    width: 135px;
+    height: 205px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn);
+    background-size: cover;
+    margin-left: 70px;
+}
+
+.download{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.b1{
+    height: 500px;
+    width: 650px;
+}
+
+.hdng{
+    width: 300px;
+    height: 80px;
+    color: #282c3f;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.des{
+    width: 400px;
+    height: 128px;
+    color: #7e808c;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.imgs{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.playstore{
+    width: 200px;
+    height: 60px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp);
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.appstore{
+    width: 200px;
+    height: 60px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty);
+    background-size: cover;
+}
+
+.b2{
+    width: 384px;
+    height: 489px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n);
+    background-size: cover;
+}
+
+.b3{
+    width: 384px;
+    height: 489px;
+    margin-top: 108px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn);
+    background-size: cover;
+}
+
+.about{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+    justify-content: space-evenly;
+}
+
+.sec{
+    width: 300px;
+    height: 387px;
+    margin-top: 100px;
+}
+
+.title{
+    width: 300px;
+    height: 20px;
+    color: #808080;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.content{
+    width: 300px;
+    height: 339px;
+    margin-top: 30px;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+p:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.section{
+    width: 300px;
+    height: 387px;
+    margin-top: 100px;
+}
+
+.ps{
+    width: 200px;
+    height: 60px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp);
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.as{
+    width: 200px;
+    height: 60px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty);
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.ps:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+.as:hover{
+    ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+.copyright{
+    height: 104px;
+    width: 100%;
+    display: flex;
+    background-color: #000000;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #FFFFFF;
+}
+
+.logoimg{
+    width: 142px;
+    height: 42px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_284/Logo_f5xzza);
+    background-size: cover;
+    margin-left: 50px;
+}
+.cprt{
+    width: 842px;
+    height: 24px;
+    color: #FFFFFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.handles{
+    display: flex;
+    width: 216px;
+    height: 28px;
+    color: #FFFFFF;
+    font-size: 40px;
+   
+}
+
+i{
+    margin-right: 10px;
+}
